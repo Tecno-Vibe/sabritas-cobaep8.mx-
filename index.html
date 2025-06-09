@@ -1,0 +1,184 @@
+<!DOCTYPE html><html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabritas - Página Principal</title>
+    <style>
+    .caja-roja {
+    background-color: red;
+    color: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+        body {
+            background-color: #ffdf00;
+            color: black;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 20px;
+            background-color: #ffdf00;
+        }
+        header img {
+            height: 60px;
+        }
+        .titulo {
+            font-size: 32px;
+            color: red;
+            font-weight: bold;
+        }
+        .login {
+            font-size: 14px;
+        }
+        nav {
+            background-color: #455a64;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            border: 1px solid white;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+        .busqueda {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            margin: 15px;
+        }
+        .contenido {
+            display: flex;
+            padding: 20px;
+            gap: 20px;
+        }
+        .izquierda, .derecha {
+            flex: 1;
+        }
+        .izquierda h3, .contenido-principal h2 {
+            color: black;
+        }
+        .footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+        .cookies {
+            position: fixed;
+            bottom: 10px;
+            left: 10px;
+            background: white;
+            border: 2px solid red;
+            padding: 15px;
+            z-index: 1000;
+        }
+        .login {
+    font-size: 14px;
+    background-color: red;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 6px;
+        }
+        .login a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://brandlogos.net/wp-content/uploads/2014/11/sabritas-logo_brandlogos.net_1lidb.png" alt="Logo de Sabritas">
+        <div class="titulo"><b>SABRITAS</b></div>
+        <div class="login">
+            <a href="login.html">Iniciar sesión</a>
+        </div>
+    </header><nav>
+    <a href="acerca.html">Acerca de</a>
+    <a href="productos.html">Productos</a>
+    <a href="contacto.html">Contacto</a>
+    <a href="testimonios.html">Testimonios</a>
+    <a href="equipo.html">Equipo</a>
+    <a href="faq.html">FAQ</a>
+    <a href="privacidad.html">Política de Privacidad</a>
+    <a href="terminos.html">Términos y Condiciones</a>
+    <a href="soporte.html">Soporte</a>
+</nav>
+
+<div class="busqueda">
+    <input type="text" placeholder="Buscar productos...">
+    <input type="text" placeholder="Introduzca CP">
+</div>
+
+<section class="contenido-principal">
+    <h2>¿Qué es Sabritas?</h2>
+    <p>Sabritas es una de las marcas más reconocidas de botanas en México, famosa por su amplia variedad de papas fritas, totopos, cacahuates, galletas saladas y otros productos.
+    
+     Fundada en 1943, ha ofrecido por décadas productos innovadores, deliciosos y de gran calidad para compartir momentos únicos con familia y amigos.<p>
+    <p>Es parte de PepsiCo México, líder en el sector de alimentos y bebidas en el país. Sabritas es conocida por sus sabores únicos y por su compromiso con la calidad, innovación y sustentabilidad</p>
+</section>
+
+<section class="contenido">
+    <div class="izquierda">
+    <div class="caja-roja">
+        <h3>Misión</h3>
+        <p>Ofrecer botanas de la mejor calidad y sabor que acompañen los momentos de alegría de nuestros consumidores.</p>
+    </div>
+    <div class="caja-roja">
+        <h3>Visión</h3>
+        <p>Ser la marca de botanas preferida en todos los hogares de México.</p>
+    </div>
+    <div class="caja-roja">
+        <h3>Valores</h3>
+        <ul>
+            <li>Calidad</li>
+            <li>Innovación</li>
+            <li>Responsabilidad</li>
+            <li>Pasión por el cliente</li>
+        </ul>
+    </div>
+</div>
+    <div class="derecha">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrcb4mBjJMKsC-2p3f7vb7WeForMmFiUfsog&s" alt="Historia de Sabritas" style="width: 100%; border: 2px solid red;">
+    </div>
+</section>
+
+<footer class="footer">
+    &copy; 2025 Sabritas | Síguenos en:
+    <a href="https://www.facebook.com/share/14FkcNnsdeH/" style="color: white;">Facebook</a> |
+    <a href="https://www.instagram.com/papassabritas?igsh=MTdqbHFhN3UwcXJwZQ==" style="color: white;">Instagram</a> |
+    <a href="https://x.com/Sabritas_mex?t=ajzWOYmzobVdr0FmmK92sQ&s=09"style="color: white;">Twitter</a><br>
+    Teléfono: 01 800 90 90000
+</footer>
+
+<div class="cookies" id="cookies">
+    <p>Este sitio utiliza cookies para mejorar tu experiencia. ¿Aceptas el uso de cookies?</p>
+    <button onclick="aceptarCookies()">Aceptar</button>
+    <button onclick="rechazarCookies()">Rechazar</button>
+</div>
+
+<script>
+    function aceptarCookies() {
+        document.getElementById('cookies').style.display = 'none';
+    }
+    function rechazarCookies() {
+        document.getElementById('cookies').style.display = 'none';
+    }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Equipo - Sabritas</title>
+  <style>
+    body {
+      background-color: #ffdf00;
+      color: black;
+      font-family: Arial, sans-serif;
+      margin: 0;
+    }
+    header {
+      text-align: center;
+      padding: 20px;
+    }
+    h1, h2 {
+      color: red;
+    }
+    nav {
+      text-align: center;
+      background-color: #455a64;
+      padding: 10px;            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 10px;
+      padding: 6px 12px;
+      border: 2px solid white;
+      border-radius: 5px;
+    }
+    nav a:hover {
+      background-color: black;
+      color: black;
+    }
+    .contenido {
+      padding: 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+    .seccion {
+      margin-bottom: 40px;
+    }
+    .grupo {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .tarjeta {
+      background-color: #455a64;
+      border: 2px solid white;
+      border-radius: 10px;
+      width: 220px;
+      padding: 15px;
+      text-align: center;
+    }
+    .tarjeta img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 10px;
+      border: 2px solid white;
+    }
+    .nombre {
+      font-weight: bold;
+      color: White;
+    }
+    .puesto {
+      font-style: italic;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Equipo Sabritas</h1>
+  </header>
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="acerca.html">Acerca de</a>
+    <a href="servicios.html">Servicios/Productos</a>
+    <a href="contacto.html">Contacto</a>
+    <a href="testimonios.html">Testimonios</a>
+    <a href="equipo.html">Equipo</a>
+    <a href="faq.html">FAQ</a>
+    <a href="privacidad.html">Privacidad</a>
+    <a href="terminos.html">Términos</a>
+    <a href="soporte.html">Soporte</a>
+  </nav>
+
+  <div class="contenido">
+    <div class="seccion">
+      <h2>Dirección General</h2>
+      <div class="grupo">
+        <div class="tarjeta">
+          <img src="https://randomuser.me/api/portraits/men/1.jpg" alt="Director General" />
+          <div class="nombre">Carlos Mendoza</div>
+          <div class="puesto">Director General</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="seccion">
+      <h2>Producción</h2>
+      <div class="grupo">
+        <div class="tarjeta">
+          <img src="https://randomuser.me/api/portraits/women/22.jpg" alt="Jefa de Producción" />
+          <div class="nombre">Laura Ramírez</div>
+          <div class="puesto">Jefa de Producción</div>
+        </div>
+        <div class="tarjeta">
+          <img src="https://randomuser.me/api/portraits/men/33.jpg" alt="Supervisor de Línea" />
+          <div class="nombre">José Hernández</div>
+          <div class="puesto">Supervisor de Línea</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="seccion">
+      <h2>Marketing</h2>
+      <div class="grupo">
+        <div class="tarjeta">
+          <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Coordinadora de Marketing" />
+          <div class="nombre">María Torres</div>
+          <div class="puesto">Coordinadora de Marketing</div>
+        </div>
+        <div class="tarjeta">
+          <img src="https://randomuser.me/api/portraits/men/55.jpg" alt="Diseñador Publicitario" />
+          <div class="nombre">Luis Castillo</div>
+          <div class="puesto">Diseñador Publicitario</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Contacto - Sabritas</title>
+  <style>
+    body { background-color: #ffdf00; color: black; font-family: Arial, sans-serif; margin: 0; }
+    header { text-align: center; padding: 20px; }
+    h1, h2 { color: red; }
+    nav { text-align: center; background-color: #455a64; padding: 10px; }
+    nav a { color: white; text-decoration: none; margin: 0 10px; padding: 6px 12px; border: 2px solid white; border-radius: 5px; }
+    nav a:hover { background-color: black; color: red; }
+    .contenido { padding: 20px; text-align: center; }
+    table { margin: auto; border-spacing: 10px; }
+    td { text-align: left; }
+    input, textarea { width: 100%; padding: 8px; border-radius: 5px; border: 1px solid #455a64; }
+    textarea { resize: vertical; height: 100px; }
+    .boton { margin-top: 20px; padding: 10px 20px; background-color: red; color: white; border: 2px solid black; border-radius: 5px; cursor: pointer; }
+    .boton:hover { background-color: white; color: red; }
+    .info-contacto { margin-top: 40px; }
+    .info-contacto p { margin: 5px 0; }
+    .redes a { color: red; text-decoration: none; margin: 0 10px; font-weight: bold; }
+    .redes a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <header><h1>Contáctanos</h1></header>
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="acerca.html">Acerca de</a>
+    <a href="servicios.html">Servicios/Productos</a>
+    <a href="contacto.html">Contacto</a>
+    <a href="testimonios.html">Testimonios</a>
+    <a href="equipo.html">Equipo</a>
+    <a href="faq.html">FAQ</a>
+    <a href="privacidad.html">Privacidad</a>
+    <a href="terminos.html">Términos</a>
+    <a href="soporte.html">Soporte</a>
+  </nav>
+
+  <div class="contenido">
+    <h2>Formulario de contacto</h2>
+    <form action="#" method="post">
+      <table>
+        <tr>
+          <td><label for="nombre">Nombre:</label></td>
+          <td><input type="text" id="nombre" name="nombre" required></td>
+        </tr>
+        <tr>
+          <td><label for="email">Correo electrónico:</label></td>
+          <td><input type="email" id="email" name="email" required></td>
+        </tr>
+        <tr>
+          <td><label for="telefono">Número telefónico:</label></td>
+          <td><input type="tel" id="telefono" name="telefono" required></td>
+        </tr>
+        <tr>
+          <td><label for="mensaje">Mensaje:</label></td>
+          <td><textarea id="mensaje" name="mensaje" required></textarea></td>
+        </tr>
+      </table>
+      <button class="boton" type="submit">Enviar</button>
+    </form>
+
+    <div class="info-contacto">
+      <h2>Contacto directo</h2>
+      <p><strong>Correo:</strong> consumidores.1800@pepsico.com</p>
+      <p><strong>Teléfono:</strong> 800 901 9500</p>
+      <p><strong>Dirección:</strong> Calzada de Tlalpan 4889, Tlalpan Centro, CDMX, México</p>
+      <div class="redes">
+        <h3>Síguenos en redes sociales:</h3>
+        <a href="https://www.facebook.com/share/1AiBDLXj8X/" target="_blank">Facebook</a>
+        <a href="https://x.com/Sabritas_mex?t=9w2hfqehB13SGbzDg89nZA&s=09" target="_blank">Twitter</a>
+        <a href="https://www.instagram.com/papassabritas?igsh=MTdqbHFhN3UwcXJwZQ==" target="_blank">Instagram</a>
+        <a href="https://youtube.com/@papassabritasmx?si=796fGpNMEkz9i-iz" target="_blank">YouTube</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

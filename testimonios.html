@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Testimonios - Sabritas</title>
+  <style>
+    body {
+      background-color: #ffdf00;
+      color: black;
+      font-family: Arial, sans-serif;
+      margin: 0;
+    }
+    header {
+      text-align: center;
+      padding: 20px;
+    }
+    h1,
+    h2 {
+      color: red;
+    }
+    nav {
+      text-align: center;
+      background-color: #455e64;
+      padding: 10px;             display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 10px;
+      padding: 6px 12px;
+      border: 2px solid white;
+      border-radius: 5px;
+    }
+    nav a:hover {
+      background-color: white;
+      color: red;
+    }
+    .contenido {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .lista-testimonios {
+      list-style: none;
+      padding: 0;
+    }
+    .testimonio {
+      display: flex;
+      align-items: flex-start;
+      background: white;
+      border: 2px solid red;
+      border-radius: 8px;
+      padding: 15px;
+      margin-bottom: 20px;
+    }
+    .foto-perfil {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-right: 20px;
+      border: 2px solid red;
+    }
+    .texto-testimonio {
+      flex: 1;
+    }
+    .nombre {
+      font-weight: bold;
+      margin-bottom: 8px;
+      color: red;
+    }
+    .resena {
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Testimonios</h1>
+  </header>
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="acerca.html">Acerca de</a>
+    <a href="servicios.html">Servicios/Productos</a>
+    <a href="contacto.html">Contacto</a>
+    <a href="testimonios.html">Testimonios</a>
+    <a href="equipo.html">Equipo</a>
+    <a href="faq.html">FAQ</a>
+    <a href="privacidad.html">Privacidad</a>
+    <a href="terminos.html">Términos</a>
+    <a href="soporte.html">Soporte</a>
+  </nav>
+
+  <div class="contenido">
+    <h2>Lo que dicen nuestros clientes</h2>
+    <ul class="lista-testimonios">
+      <li class="testimonio">
+        <img class="foto-perfil" src="https://randomuser.me/api/portraits/women/68.jpg" alt="Foto de Ana Pérez" />
+        <div class="texto-testimonio">
+          <div class="nombre">Ana Pérez</div>
+          <div class="resena">
+            Me encantan los productos Sabritas, siempre frescos y con el sabor auténtico que espero.
+          </div>
+        </div>
+      </li>
+      <li class="testimonio">
+        <img class="foto-perfil" src="https://randomuser.me/api/portraits/men/45.jpg" alt="Foto de Luis Gómez" />
+        <div class="texto-testimonio">
+          <div class="nombre">Luis Gómez</div>
+          <div class="resena">
+            Excelente servicio y variedad. Siempre encuentro mis botanas favoritas.
+          </div>
+        </div>
+      </li>
+      <li class="testimonio">
+        <img class="foto-perfil" src="https://randomuser.me/api/portraits/women/12.jpg" alt="Foto de María López" />
+        <div class="texto-testimonio">
+          <div class="nombre">María López</div>
+          <div class="resena">
+            La calidad y el sabor no tienen comparación. ¡Recomiendo Sabritas 100%!
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</body>
+</html>

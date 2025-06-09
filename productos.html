@@ -1,0 +1,258 @@
+<!DOCTYPE html><html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Productos - Sabritas</title>
+  <style>
+    body {
+      background-color: #ffdf00;
+      color: black;
+      font-family: Arial, sans-serif;
+      margin: 0;
+    }
+    header {
+      text-align: center;
+      padding: 20px;
+    }
+    h1, h2, h3 {
+      color: red;
+    }
+    nav {
+      text-align: center;
+      background-color: #455a64;
+      padding: 10px;            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 10px;
+      padding: 6px 12px;
+      border: 2px solid white;
+      border-radius: 5px;
+    }
+    nav a:hover {
+      background-color: white;
+      color: red;
+    }
+    .contenido {
+      padding: 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .categoria {
+      margin-bottom: 40px;
+    }
+    .productos {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .producto {
+      position: relative;
+      width: 180px;
+      cursor: pointer;
+    }
+    .producto img {
+      width: 100%;
+      border: 2px solid white;
+      border-radius: 10px;
+    }
+    .info {
+      display: none;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: rgba(255, 255, 255, 0.95);
+      width: 100%;
+      height: 100%;
+      padding: 10px;
+      border-radius: 10px;
+      border: 2px solid red;
+      color: black;
+      font-size: 14px;
+      box-sizing: border-box;
+    }
+    .producto:hover .info {
+      display: block;
+    }
+    .distribucion img {
+      width: 300px;
+      border-radius: 10px;
+      border: 2px solid white;
+      margin: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Productos Sabritas</h1>
+  </header>
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="acerca.html">Acerca de</a>
+    <a href="servicios.html">Servicios/Productos</a>
+    <a href="contacto.html">Contacto</a>
+    <a href="testimonios.html">Testimonios</a>
+    <a href="equipo.html">Equipo</a>
+    <a href="faq.html">FAQ</a>
+    <a href="privacidad.html">Privacidad</a>
+    <a href="terminos.html">Términos</a>
+    <a href="soporte.html">Soporte</a>
+  </nav>
+  <div class="contenido">
+    <h2>Nuestros productos</h2><!-- Se insertarán aquí todas las categorías con imágenes ficticias -->
+<div class="categoria">
+    <h2>Doritos</h2>
+<img src="https://pngimg.com/uploads/doritos/doritos_PNG37.png" alt="Logo de Doritos" style="width: 100px; height: auto; margin-bottom: 10px;">
+  <h3></h3>
+  <div class="productos">
+    <div class="producto"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxw7hj2zmYGYAS6eBnYfhM67H7t5xFG-_GNe0uzMf3tqaYVh57Xep9k6uW&s=10" alt="Doritos Nacho"><div class="info">Doritos Nacho: Sabor clásico a queso.</div></div>
+    <div class="producto"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAWQh0EDQxf-uyhyOHJhp1KFTJrQHGjF52HO3Xs-VM5VRKCJoVfIQ5d3J0&s=10" alt="Doritos Flamin' Hot"><div class="info">Doritos Flamin' Hot: Muy picantes.</div></div>
+    <div class="producto"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX9qQvl46VLiVHFZRv91KVyDvvQwheZ2JLSxdspRWGTTI9gh7tf7aY3vw&s=10" alt="Doritos Incógnita"><div class="info">Doritos Incógnita: Sabor misterioso.</div></div>
+    <div class="producto"><img src="https://i5-mx.walmartimages.com/gr/images/product-images/img_large/00750047801212L1.jpg" alt="Doritos Pizzerola"><div class="info">Doritos Pizzerola: Sabor pizza.</div></div>
+    <div class="producto"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLsLIyMXZ_fE24R4vRPkDBPz1V-XtdncJd1e5D8QnCcgGQiIzKMaBOgJGB&s=10" alt="Doritos 3D"><div class="info">Doritos 3D: Forma inflada y crujiente.</div></div>
+    <div class="producto"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsXnj8sBXZfnQctbWcNCnu9UIxtqP9MPYTIvF6XbbaW2vrocu5gV7-Lbw&s=10" alt="Doritos Tex-Mex"><div class="info">Doritos Tex-Mex: Queso picoso y rico.</div></div>
+        <div class="producto"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQF7FLIMlak1bwmiCIPlX9WYf9Gpwjzh3syIyRKPGMH_6o-InLECN6i4bBW&s=10" alt="Doritos Dinamita"><div class="info">Doritos Dinamita: Sabor Chile y limón.</div></div>
+    <div class="producto"><img src="https://i5-mx.walmartimages.com/gr/images/product-images/img_large/00750047803055L.jpg?odnHeight=612&odnWidth=612&odnBg=FFFFFF" alt="Doritos Dinamita: Flamin'Hot"><div class="info">Doritos Dinamita Flamin'Hot: Muy picosos.</div></div>
+    <div class="producto"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSa5cGe6Cg5xxj7lci-b9m8104n3IpvuINsOgnX7oiBGkM24Ia11pIy0-M&s=10" alt="Doritos Mix"><div class="info">Doritos Mix: Surtidos y exquisitos .</div></div>
+  </div>
+      <h2>Cheetos</h2>
+<img src="https://i.pinimg.com/originals/ce/a4/40/cea440cf30da81115858c199651d3d25.png" alt="Logo de Cheetos" style="width: 100px; height: auto; margin-bottom: 10px;">
+  <h3></h3>
+<div class="categoria">
+  <h3></h3>
+  <div class="productos">
+    <div class="producto"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfRCW0GTwqWREMl5RE-MzgJl-280BMQGyry8CZSc1FY7UJfufzNnhfePh3&s=10" alt="Cheetos Torciditos"><div class="info">Cheetos Torciditos: Crujientes y salados.</div></div>
+    <div class="producto"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwKBkZTyOT46kKjWTGW2IFL3Sr9DBTzpLFjN1GMonEKYcVAbFUd4TgqSC5&s=10" alt="Cheetos Bolitas"><div class="info">Cheetos Bolitas: Esferas de queso.</div></div>
+    <div class="producto"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-ey_R7epveFO-_vS_PA7IbP7UPefOxVXspE8iK3m7majPuhX3pPawR00&s=10" alt="Cheetos Flamin' Hot"><div class="info">Cheetos Flamin' Hot: Picantes.</div></div>
+    <div class="producto"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuJNwZU9uJZKbzQwT0cFiWYdf_KybVaLRL3nuKlX7UBF8zmkRB5Qkq7OQW&s=10" alt="Cheetos Poffs"><div class="info">Cheetos Poffs: Esponjosos y deliciosos.</div></div>
+    <div class="producto"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKMJU0CO2gu9EfGQkMh-NQF1cMGXIdDeILBqpijelp-MZungbqTnRmi3s&s=10" alt="Cheetos Nacho"><div class="info">Cheetos Nacho: Sabor a nachos.</div></div>
+    <div class="producto"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvnI_ajxDs5A3IE2A3hI9KU0rgnW-CLp840TI10T-qmGQzC6QEgvngjls&s=10" alt="Cheetos Colmillos"><div class="info">Cheetos Colmillos: Forma divertida y picantes.</div></div>
+    <div class="producto"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-DMM53BK8NJy9WgUEVi9DFpAidDNcDelZ9g&s" alt="Cheetos Palomitas"><div class="info">Cheetos Palomitas: Sabor a queso.</div></div>
+    <div class="producto"><img src="https://i5-mx.walmartimages.com/gr/images/product-images/img_large/00750047802555L.jpg" alt="Cheetos Mix"><div class="info">Cheetos Mix: Surtido y exquisitos.</div></div>
+  </div>
+</div>
+
+    <h2>Ruffles</h2>
+<img src="https://images.seeklogo.com/logo-png/37/2/ruffles-logo-png_seeklogo-373948.png" alt="Logo de Ruffles" style="width: 100px; height: auto; margin-bottom: 10px;">
+  <h3></h3>
+<div class="categoria">
+  <h3></h3>
+  <div class="productos">
+    <div class="producto"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxcS2_NC7zACReDtAeOQuKty8IIf3qVsiFoi9QPWb-BZ8fu7uXln1k3fk&s=10" alt="Ruffles Original"><div class="info">Ruffles Original: Ruffles con sal.</div></div>
+    <div class="producto"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY_qLLqTCV3-gBJenindTtloBT7CxZ3D6XuOD4PDUQ4yGa3XyHyMKzF_k&s=10" alt="Ruffles con Queso "><div class="info">Ruffles con Queso: Sabor queso.</div></div>
+    <div class="producto"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUzpwBTMyQsLry22EYEWSBc38kW0jAdBgqGaouONDxiKrV0NMHoCMtGMV6&s=10" alt="Ruffles Mega Crunch: Jalapeño"><div class="info">Ruffles Mega Crunch: Sabor jalapeño.</div></div>
+    <div class="producto"><img src="https://i5-mx.walmartimages.com/gr/images/product-images/img_large/00750047802674L.jpg?odnHeight=612&odnWidth=612&odnBg=FFFFFF" alt="Ruffles Mega Crunch: Salsa Roja"><div class="info">Ruffles Mega Crunch Salsa Roja: Picor moderado.</div></div>
+    <div class="producto"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCogtQLnfTG-MnosrimKrGCiiuN6qTiDjMoV6aD8Y3kgHnKjXmf3TIQjOK&s=10" alt="Ruffles Mega Crunch: Salsa Negra"><div class="info">Ruffles Mega Crunch Salsa Negra: Muy picantes.</div></div>
+    <div class="producto"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdOvCD2CtqOix3XLSAOyPQ4CR2luFN7hMCSzqoA4AmxihGcjPPKidrYJM&s=10" alt="Ruffles Mega Crunch: Flamin'Hot"><div class="info">Ruffles Mega Crunch Flamin'Hot: Toque ardiente.</div></div>
+    <div class="producto"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcW5WiMCUKBrMbpEqFEwcelLCEec7Dswyxec7cj4t4E3oTeVNNGga-z-k&s=10" alt="Ruffles Mix" ><div class="info">Ruffles Mix: Surtidos y exquisitos. </div></div>
+  </div>
+</div>
+     <h2>Sabritas</h2>
+<img src="https://cdn.freebiesupply.com/logos/large/2x/sabritas-logo-png-transparent.png" alt="Logo de Sabritas" style="width: 100px; height: auto; margin-bottom: 10px;">
+  <h3></h3>
+  
+  <div class="categoria">
+  <h3></h3>
+  <div class="productos">
+    <div class="producto"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfnoWko5ySyzunlvio-eUwaXPOU-9flUdQ9yIuXrz8zXTAGXLtCBBeGEi1&s=10" alt="Sabritas Clásicas"><div class="info">Sabritas Clásicas: Papas con sal.</div></div>
+    <div class="producto"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPyNGROFQwy-rE3_lorFeDHAoLNOU6yojMQwpBad_29rAZTEKhMRY-vy7I&s=10" alt="Sabritas Adobadas"><div class="info">Sabritas Adobadas: Sabor intenso.</div></div>
+    <div class="producto"><img src="https://www.superaki.mx/cdn/shop/products/7501011133938_8ad83d97-8505-4775-8eaf-b6b1332f1ef2.jpg?v=1675463024" alt="Sabritas Limón"><div class="info">Sabritas Limón: Con limón natural.</div></div>
+    <div class="producto"><img src="https://i5-mx.walmartimages.com/gr/images/product-images/img_large/00750101114325L.jpg?odnHeight=612&odnWidth=612&odnBg=FFFFFF" alt="Sabritas Jalapeño"><div class="info">Sabritas Jalapeño: Picor moderado.</div></div>
+    <div class="producto"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcTQ8uXISQDhQ0is4DKqAhHVs_QxJn_bgp5Z2Dwv3zSzXJmZN-6P1RN_g&s=10" alt="Sabritas Habanero"><div class="info">Sabritas Habanero: Muy picantes.</div></div>
+    <div class="producto"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR18qkKNLlTusq-jE3cp8iIFOy3bv8Yj181Y_B8qFkokyLXgEE2Jd3Cv1lz&s=10" alt="Sabritas Flamin' Hot"><div class="info">Sabritas Flamin' Hot: Toque ardiente.</div></div>
+        <div class="producto"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeL4lWjqANa0SNHySBYZgS9NkfgMtudLB7UqQiBrztXRP3bwpfZlH394A&s=10"><div class="info">Sabritas Especia: Toque cremoso.</div></div>
+  </div>
+</div>
+
+</div>
+
+</div>
+
+
+     <h2>Fritos</h2>
+<img src="https://cdn.freebiesupply.com/logos/large/2x/fritos-logo-png-transparent.png" alt="Logo de Fritos" style="width: 100px; height: auto; margin-bottom: 10px;">
+  <h3></h3>
+  
+  <div class="categoria">
+  <h3></h3>
+  <div class="productos">
+    <div class="producto"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4NDy55I-hg5qC1qZT9AnLmAV9h_1_cY0z2PbDPGtYvnVkp735NuV6l-q8&s=10" alt="Fritos Lim"><div class="info">Fritos Limón y Sal: Tradicional sabor a maíz.</div></div>
+    <div class="producto"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgumXxC56Dw833GdEQpyno7N0crNlvLduCYcqm5rzraDsnTPpOPJqtpgA7&s=10" alt="Fritos Chorizo y Chipotle"><div class="info">Fritos Chorizo y Chipotle: Con un toque ahumado.</div></div>
+    <div class="producto"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgS6VW9pwGOgkhUeNoHepa5SDtCFEhgx6-_53ibnT5WeIpl6KYqCowgJv7&s=10" alt="Fritos Chile y Limón "><div class="info">Fritos Chile y Limón: Intensos y únicos.</div></div>
+    <div class="producto"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDgGXJeYDVg2glPbQ3of4cc8gyNog0N6dI5QBo8JfOleysXAGE3gmxtn4&s=10" alt="Fritos Flamin' Hot"><div class="info">Fritos Flamin' Hot: Picantes al estilo Fritos.</div></div>
+  </div>
+  
+     <h2>Churrumais</h2>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8P0lnpxKDgcYJD5Z6v7FfKeOmsIYUBF9FsCh_iHND4o089VBtXYwl4SQ&s=10" alt="Logo de Fritos" style="width: 100px; height: auto; margin-bottom: 10px;">
+  <h3></h3>
+  
+<div class="categoria">
+  <h3></h3>
+  <div class="productos">
+    <div class="producto"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7H2Y9WZHU8CZqCuNM1NZdn0r7iPqsUoWU-YMkTTo5V4D3-4PyFNzusXk2&s=10" alt="Churrumais con Limón"><div class="info">Churrumais con Limón: Sabor cítrico.</div></div>
+    <div class="producto"><img src="https://i5-mx.walmartimages.com/gr/images/product-images/img_large/00750047800503L.jpg" alt="Churrumais Flamas"><div class="info">Churrumais Flamas: Toque picoso.</div></div>
+    <div class="producto"><img src="https://chedrauimx.vtexassets.com/arquivos/ids/46934268/7500478042302_00.jpg?v=638798856960670000" alt="Churrumais Flamin'Hot"><div class="info">Churrumais Flamin'Hot: Toque muy picoso.</div></div>
+  </div>
+  </div>
+</div>
+
+     <h2>Crujitos</h2>
+<img src="https://mayamexfoods.com/cdn/shop/collections/logo-crujitos_600x.png?v=1712937664" alt="Logo de Crujitos" style="width: 100px; height: auto; margin-bottom: 10px;">
+  <h3></h3>
+  <div class="categoria">
+  <h3></h3>
+  <div class="productos">
+    <div class="producto"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZqSI_sCHeR9kx4I3fj_PtYEq-asNksYoLDl1MlUSgfEVbK36D6QyJ8Eas&s=10" alt="Crujitos Queso"><div class="info">Crujitos Queso: Crujientes con queso.</div></div>
+    <div class="producto"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYEMD7DAy1qE0BbprBQaRYMTuYBGgsHP_Kx66L0nGR8tY73XLZMfcN2Vf2&s=10" alt="Crujitos Flamin' Hot"><div class="info">Crujitos Flamin' Hot: Crujientes y picantes.</div></div>
+  </div>
+</div>
+
+     <h2>Rancheritos</h2>
+<img src="https://rancheritosdeboca.com/wp-content/uploads/2022/08/arco-logo.png" alt="Logo de Rancheritos" style="width: 100px; height: auto; margin-bottom: 10px;">
+  <h3></h3>
+  <div class="categoria">
+  <h3></h3>
+  <div class="productos">
+    <div class="producto"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1zLfwPyC99Arqkqh1EeqLm0HX0u9DMWRedKrlzJN_OMG_k6gBWhktJx-f&s=10" alt="Rancheritos"><div class="info">Rancheritos: Crujientes y picosos.</div></div>
+</div>
+
+     <h2>Cacahuetes Kacang</h2>
+<img src="https://cdn.prod.website-files.com/5f935ee5bba2ac59f2ae49e8/5f935ee5bba2ac6ec9ae49f5_kacang.png" style="width: 100px; height: auto; margin-bottom: 10px;">
+  <h3></h3>
+  <div class="categoria">
+  <h3></h3>
+  <div class="productos">
+    <div class="producto"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyqiJaUl1p3VYXL5gZQGGQmwLZEEpozDb_tHs8K323VT2Vark8Fez27G0&s=10" alt="Japoneses"><div class="info">Japoneses: Cubiertos y crujientes.</div></div>
+    <div class="producto"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdYVND7PLJ0VOnzsFCYw9WyGxP3Z0acERGj02zuxqAgupOXhkgFEIjIlg&s=10" alt="Enchilados"><div class="info">Enchilados: Con chile y sabor fuerte.</div></div>
+    <div class="producto"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3PJe3z9CkbLhIR_xfnXuQGe6HoCs7cO9q6PcU7jDaTUwkZ5kjvSiyhsaW&s=10" alt="Limón"><div class="info">Limón: Frescos y cítricos.</div></div>
+    <div class="producto"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxH7uxQOB4mbKwH0hITa0NMw8YwTUMoTdcPPfI9QGlU3MgQ2dl7FJvXy8&s=10" alt="Flamin'Hot"><div class="info">Flamin'Hot: Muy picantes.</div></div>
+  </div>
+</div>
+
+     <h2>Paketaxos</h2>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXn4Bl7HVCvBpGsReAZqNkX08OupZr9WmRtg2C_qynkNPmVrYsO3-UaGSZ&s=10" alt="Logo de Rancheritos" style="width: 100px; height: auto; margin-bottom: 10px;">
+  <h3></h3>
+  <div class="categoria">
+  <h3></h3>
+  <div class="productos">
+    <div class="producto"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjs9zWvpgsi6vuui45k6Zsz--U4rCXB2FHogJKYfbPySoWIwrJQgENPM0&s=10" alt="Paketaxo Quexo"><div class="info">Paketaxo Quexo: Mezcla con queso.</div></div>
+    <div class="producto"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJtM2ERp85CC7eTMY8e1ICi0rKsgRqnlQTwLnWKFvw6p2UcXIMYw44D7c&s=10" alt="Paketaxo Flamin' Hot"><div class="info">Paketaxo Flamin' Hot: Surtido picante.</div></div>
+    <div class="producto"><img src="https://i5-mx.walmartimages.com/gr/images/product-images/img_large/00750101115486L.jpg" alt="Paketaxo Botanero"><div class="info">Paketaxo Botanero: Ideal para botanear.</div></div>
+    <div class="producto"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLpXqqZkq3nRMJZ_U6VhfF3KhZM8LqoBih_uD7s-G3fImwRfZIa--p7EwD&s=10" alt="Paketaxo Mezcladito"><div class="info">Paketaxo Mezcladito: Sabor parrillero.</div></div>
+    <div class="producto"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1W0NDwYACKTIUVf92n9MdJPME1Lvbu5faw2MD2rjRzA3OP9ffe1q_vysA&s=10" alt="Paketaxo Dark"><div class="info">Paketaxo Dark: Mezcla para compartir.</div></div>
+</div>
+
+<h2>Distribución</h2>
+<div class="distribucion">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4EdrcXnovZkBpPsnqwsjbaxOUi_EFdzbZeTTmslbS_YJbHFoNvg-YoMc&s=10" alt="Fábrica Sabritas" />
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQX9FZs-JxpNRBbEBKNGc7WBdPiH9PL9tY5wcq1cDqGbyQvnlzehxPdDqc5&s=10" alt="Camión de reparto" />
+</div>
+
+  </div>
+</body>
+</html>
